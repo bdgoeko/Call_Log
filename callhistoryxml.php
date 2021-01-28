@@ -28,7 +28,6 @@ $options = array(
 $ch = curl_init();
 
 curl_setopt_array( $ch, $options );
-  $raw_response  = curl_exec( $ch );
 
 try {
   $raw_response  = curl_exec( $ch );
