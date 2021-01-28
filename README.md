@@ -8,15 +8,15 @@ Then a web interface to view the calls, and view the caller id info, and add cal
 
 Create export to CSV function.
 
+Send to MQTT, Loggly, pushbullet
+
 Post to OpenCNAM
 
 Check robocall
 
 Lookup the number via various APIs
 
-Report SPAM
-
-Automatically report obnoxious call
+Automatically report obnoxious call (SPAM)
 
 Post to an API
 
