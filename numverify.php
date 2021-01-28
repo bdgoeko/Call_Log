@@ -4,7 +4,7 @@ require_once(__DIR__.'/config.php');
 // set API Access Key
 
 // set email address
-$phone_number = '17136331642';
+$phone_number = '15555555555';
 
 // Initialize CURL:
 $ch = curl_init('http://apilayer.net/api/validate?access_key='.$numverifykey.'&number='.$phone_number.'&country_code='.'&format=1');  
