@@ -2,7 +2,7 @@
 error_reporting(E_ALL); 
 ini_set( 'display_errors','1');
 $opencnam = 'https://api.opencnam.com/v2/phone/+15555555555';
-$host = '192.168.9.16';
+$host = '192.168.1.1';
 $pagename = 'PI_FXS_1_Stats.xml';
 $scheme = 'http';
 $url = "{$scheme}://{$host}/{$pagename}";
