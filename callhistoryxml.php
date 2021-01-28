@@ -3,12 +3,12 @@
 error_reporting(E_ALL); 
 ini_set( 'display_errors','1');
 
-$host = '192.168.9.16';
+$host = '192.168.1.1';
 $pagename = 'callhistory.xml';
 $scheme = 'http';
 $url = "{$scheme}://{$host}/{$pagename}";
 $username = "admin";
-$password = "megalith";
+$password = "admin";
 
 $options = array(
         CURLOPT_URL            => $url,
