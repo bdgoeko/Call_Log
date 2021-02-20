@@ -28,7 +28,7 @@ $options = array(
 $ch = curl_init();
 
 curl_setopt_array( $ch, $options );
-
+// need to catch error code 401 which is bad username and/or password
 try {
   $raw_response  = curl_exec( $ch );
 
